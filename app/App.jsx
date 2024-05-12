@@ -1,10 +1,10 @@
 import React from "react";
-// import SplashScreen from "./Components/SplashScreen";
+import Home from "./Components/[pages]/Home";
 
 const App = () => {
   return (
     <>
-      {/* <SplashScreen /> */}
+    <Home/>
     </>
   );
 };
