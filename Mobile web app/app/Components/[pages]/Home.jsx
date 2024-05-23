@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <div className="h-[100vh] py-8 px-4 flex flex-col ">
-        <div className="my-8 flex justify-between items-center">
+        <div className="my-2 flex justify-between items-center">
           <BiMenu size={30} color="#f5f5f5" />
           <h1 className="text-[#f5f5f5] text-xl">Sweethani</h1>
           <BsPerson size={30} color="white" />
@@ -25,9 +25,9 @@ const Home = () => {
             Best Deal
           </h2>
           <div className="my-5 h-[70%] flex flex-wrap overflow-hidden overflow-x-scroll overflow-y-scroll flex-col gap-x-4 justify-center items-center px-5">
-            <MainBox price={449} name={"Dadi ka pyaar"} />
-            <MainBox price={549} name={"Nani ka pyaar"} />
-            <MainBox price={989} name={"Apna pann"} />
+            <MainBox price={610} name={"Dadi ka pyaar"} />
+            <MainBox price={620} name={"Nani ka pyaar"} />
+            <MainBox price={615} name={"Apna pann"} />
           </div>
           <div className="w-full h-28 flex justify-between items-center text-white border-t-2 border-opacity-40 border-gray-300">
             <div className="">
